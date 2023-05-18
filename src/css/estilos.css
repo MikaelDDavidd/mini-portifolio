@@ -34,6 +34,10 @@ body{
     border-radius: 50px;
     border: 4px solid #288ee2;    
 }
+.cartao .minhas-informacoes img:hover{
+    border-radius: 60px;
+    border: 4px solid tomato;
+}
 
 .cartao .minhas-informacoes .nome{
     font-size: 26px;
@@ -103,7 +107,6 @@ body{
 .informacoes-abas .descricao span{
     color: #288ee2;
 }
-
 .redes-sociais{
     display: flex;
     flex-direction: column;
@@ -124,7 +127,8 @@ body{
 }
 
 .redes-sociais li a:hover{
-    opacity: 0.8;
+    opacity: 0.6;
+    transform: scale(1.1,1);
 }
 
 .redes-sociais .curriculo{
