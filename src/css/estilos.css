@@ -35,8 +35,7 @@ body{
     border: 4px solid #288ee2;    
 }
 .cartao .minhas-informacoes img:hover{
-    border-radius: 60px;
-    border: 4px solid tomato;
+    transform: scale(1.2);
 }
 
 .cartao .minhas-informacoes .nome{
@@ -106,6 +105,10 @@ body{
 
 .informacoes-abas .descricao span{
     color: #288ee2;
+}
+.informacoes-abas .descricao span:hover{
+    color: tomato;
+    transform: scale(1.5);
 }
 .redes-sociais{
     display: flex;
